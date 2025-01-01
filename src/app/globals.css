@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+      color: #fff;
+      background-color: #000;
+    }
+  }
+  
+  @layer components{
+    .menulink{
+      @apply cursor-pointer hover:text-[#c5c5c5]
+    }
+  }
+
+  .tags{
+    background-color: #0abde3;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  .tags:nth-child(2){
+    background-color: #a55eea;
+  }
+  .tags:nth-child(3){
+    background-color: #68eac1;
+  }
+  .tags:nth-child(4){
+    background-color: rgb(237, 161, 209);
+  }
+  .skills{
+    width: 265px;
+    height: 20px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred{
+    width: 250px;
+    height: 15PX;
+    border-radius: 20px;
+    border-color: black;
+    margin-left: 30PX;
+    margin: 10px;
+    background-color: orangered;
+}
+.S5{
+    width: 175px;
+    height: 15PX;
+    border-radius: 20px;
+    border-color: black;
+    margin-left: 30PX;
+    margin: 10px;
+    background-color: rgba(0, 221, 255, 0.911);
+}
+.fifty{
+    width: 160px ;
+    height: 15PX;
+    border-radius: 20px;
+    border-color: black;
+    margin-left: 30px;
+    margin: 10px;
+    background-color: green;
+}
+.t5{
+    width: 125px;
+    height: 15PX;
+    border-radius: 20px;
+    border-color: black;
+    margin-left: 30px;
+    margin: 10px;
+    background-color: yellow;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItems{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    font-size: 20px;
+}
