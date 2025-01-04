@@ -26,7 +26,7 @@ const Footer = () => {
        <BsGithub className="text-3xl hover:text-gray-600"/>
       </Link>
       
-      <Link href="https://web.facebook.com/ptiandpalestin123" 
+      <Link href="https://web.facebook.com/Sulemankhanpalestin/" 
       target='_blank'className="ml-3 text-gray-500">
        <FaFacebook className="text-3xl hover:text-blue-700"/>
       </Link>
